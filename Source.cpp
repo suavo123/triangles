@@ -13,7 +13,7 @@ int main()
 	cout << "Enter height of triangle: ";
 	cin >> height;
 	cout << "\nThe area of the triangle is: " << triArea(base, height) << endl;
-	cout << "The perimeter of the triangle is: " << triPerimeter(base) << '\n';
+	cout << "The perimeter of the triangle is: " << triPerimeter(base, height) << '\n';
 }
 double triArea(double base, double height)
 {
